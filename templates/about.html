@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>About</title>
-</head>
-<body>
-    <h2>About</h2>
+{% extends 'master.html' %}
 
-</body>
-</html>
+{% block title %}
+	<title>About</title>
+{% endblock %}
+
+{% block content %}
+	<h2 class="text-center text-danger">About us</h2>
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum debitis ex excepturi fugiat itaque iure laudantium molestiae perspiciatis, placeat praesentium, quibusdam repudiandae sequi suscipit velit, veritatis. Fugiat optio possimus quae?</span><span>Ab alias atque culpa cum dignissimos eius eum ex excepturi expedita fuga fugiat id inventore ipsam iure, libero nemo nobis non numquam, obcaecati officiis quos reiciendis tempora tenetur vel veritatis?</span><span>Dolor eveniet porro saepe sit voluptates? Ab alias asperiores dicta dolores eligendi eos est magnam minus nesciunt nisi nulla odit, perferendis quod repudiandae sed similique, sint sit ullam vel, veniam.</span></p>
+    
+    <h2>Our procducts</h2>
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores aspernatur atque culpa deserunt dolores fuga, hic laboriosam laudantium nihil non nostrum odio possimus quas ratione repellendus repudiandae saepe sunt.</span><span>Autem deserunt dicta, doloremque ea eaque error est eveniet harum illo ipsa modi molestias quae quaerat quibusdam ratione repudiandae tempora, ut velit! Molestias non optio placeat! Ab delectus fugiat ipsum?</span></p>
+{% endblock %}
